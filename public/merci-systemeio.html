@@ -1,0 +1,506 @@
+<!--
+  ============================================================
+  PAGE DE REMERCIEMENT — KAM AI-First Toolkit
+  ============================================================
+
+  COLLER dans : Bloc "Code personnalisé" de la PAGE DE REMERCIEMENT
+  Systeme.io accepte : <style> + HTML body + <script>
+  PAS de DOCTYPE / html / head / body
+
+  FONTS : Coller dans "Code d'en-tête" de la page :
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  ============================================================
+-->
+
+<style>
+  body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #152B47 !important;
+    overflow-x: hidden !important;
+  }
+
+  body > div, body > div > div, body > div > div > div,
+  .page-content, .page-body, .container-fluid,
+  [class*="section"], [class*="row"], [class*="col"],
+  .page-content > div, .page-body > div,
+  [data-section], [data-row], [data-col] {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    background: transparent !important;
+  }
+
+  .page-header, .page-footer, nav { display: none !important; }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .merci-page {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(160deg, #152B47 0%, #1E3A5F 50%, #2A4F7A 100%);
+    min-height: 100vh;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+
+  .merci-page {
+    --navy: #1E3A5F;
+    --navy-dark: #152B47;
+    --navy-light: #2A4F7A;
+    --gold: #C9A84C;
+    --gold-light: #E0C76A;
+    --gold-dark: #A88A3A;
+    --white: #FFFFFF;
+    --gray-500: #6B7A8D;
+    --gray-200: #E2E6ED;
+    --green: #22C55E;
+    --green-bg: rgba(34, 197, 94, 0.08);
+    --radius: 12px;
+    --radius-lg: 20px;
+  }
+
+  .merci-page .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---- HEADER BANDE ---- */
+  .merci-page .top-bar {
+    background: rgba(201, 168, 76, 0.1);
+    border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--gold-light);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  /* ---- HERO CONFIRMATION ---- */
+  .merci-page .hero-confirm {
+    padding: 64px 0 48px;
+    text-align: center;
+  }
+
+  .merci-page .success-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #16a34a, #22C55E);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 28px;
+    box-shadow: 0 0 0 12px rgba(34, 197, 94, 0.12), 0 0 0 24px rgba(34, 197, 94, 0.05);
+    animation: pulse-green 2s ease infinite;
+  }
+
+  @keyframes pulse-green {
+    0%, 100% { box-shadow: 0 0 0 12px rgba(34, 197, 94, 0.12), 0 0 0 24px rgba(34, 197, 94, 0.05); }
+    50% { box-shadow: 0 0 0 16px rgba(34, 197, 94, 0.08), 0 0 0 32px rgba(34, 197, 94, 0.03); }
+  }
+
+  .merci-page .hero-confirm h1 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+
+  .merci-page .hero-confirm h1 .highlight {
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .merci-page .hero-confirm p.sub {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.7;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  /* ---- CARD EMAIL ---- */
+  .merci-page .email-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-radius: var(--radius-lg);
+    padding: 36px 40px;
+    margin: 0 0 24px;
+    text-align: center;
+  }
+
+  .merci-page .email-card .email-icon {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .merci-page .email-card h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    margin-bottom: 10px;
+  }
+
+  .merci-page .email-card p {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+  }
+
+  .merci-page .email-card .email-tip {
+    margin-top: 18px;
+    padding: 12px 16px;
+    background: rgba(201, 168, 76, 0.08);
+    border-radius: 10px;
+    font-size: 0.84rem;
+    color: rgba(255, 255, 255, 0.55);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+  }
+
+  .merci-page .email-tip-icon {
+    flex-shrink: 0;
+    font-size: 1rem;
+  }
+
+  /* ---- STEPS UTILISATION ---- */
+  .merci-page .steps-section {
+    margin: 0 0 24px;
+  }
+
+  .merci-page .steps-section h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .merci-page .steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .merci-page .step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+  }
+
+  .merci-page .step-num {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    color: var(--navy-dark);
+    font-size: 0.9rem;
+    font-weight: 800;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .merci-page .step-text strong {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 2px;
+  }
+
+  .merci-page .step-text span {
+    font-size: 0.84rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* ---- RECAP ACHAT ---- */
+  .merci-page .recap-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin: 0 0 24px;
+  }
+
+  .merci-page .recap-card h3 {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 16px;
+  }
+
+  .merci-page .recap-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .merci-page .recap-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .merci-page .recap-list li svg {
+    flex-shrink: 0;
+    color: var(--gold);
+  }
+
+  /* ---- FOOTER ---- */
+  .merci-page .merci-footer {
+    padding: 32px 0 40px;
+    text-align: center;
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .merci-page .merci-footer a {
+    color: rgba(255, 255, 255, 0.35);
+    text-decoration: none;
+  }
+
+  .merci-page .merci-footer a:hover {
+    color: var(--gold);
+  }
+
+  /* ---- CONFETTI (CSS only) ---- */
+  .confetti-wrap {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+  }
+
+  .confetti-piece {
+    position: absolute;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    animation: confetti-fall linear forwards;
+    opacity: 0;
+  }
+
+  @keyframes confetti-fall {
+    0% { opacity: 1; transform: translateY(0) rotate(0deg); }
+    100% { opacity: 0; transform: translateY(100vh) rotate(720deg); }
+  }
+
+  /* ---- BOUTON TELECHARGEMENT ---- */
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 40px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    color: var(--navy-dark);
+    font-family: inherit;
+    font-size: 1.05rem;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 24px rgba(201, 168, 76, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .btn-download:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(201, 168, 76, 0.55);
+  }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 640px) {
+    .merci-page .hero-confirm { padding: 48px 0 36px; }
+    .merci-page .email-card { padding: 28px 24px; }
+    .merci-page .recap-card { padding: 20px 20px; }
+  }
+</style>
+
+<div class="merci-page">
+
+  <!-- Confetti -->
+  <div class="confetti-wrap" id="confetti-wrap"></div>
+
+  <!-- Bande top -->
+  <div class="top-bar">
+    &#x2022; Paiement confirm&eacute; &middot; Commande trait&eacute;e &middot; Fichier en pr&eacute;paration &#x2022;
+  </div>
+
+  <!-- Hero confirmation -->
+  <section class="hero-confirm">
+    <div class="container">
+      <div class="success-icon">
+        <svg width="40" height="40" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M20 6L9 17l-5-5"/>
+        </svg>
+      </div>
+      <h1>Bienvenue dans le<br><span class="highlight" style="white-space:nowrap;">KAM AI-First Toolkit.</span></h1>
+      <p class="sub">
+        Votre achat est confirm&eacute;. Vous allez recevoir votre fichier par email dans quelques minutes.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <!-- BOUTON TELECHARGEMENT PRINCIPAL -->
+    <div style="text-align:center;margin:0 0 24px;">
+      <!-- ============================================================
+           REMPLACER CE LIEN par l'URL générée par le File Manager
+           Systeme.io après upload de kam-ai-first-toolkit.html
+           Exemple : https://assets.systeme.io/xxx/kam-ai-first-toolkit.html
+           ============================================================ -->
+      <a href="https://kam-toolkit.vercel.app/download" class="btn-download">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="flex-shrink:0;">
+          <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+        </svg>
+        T&eacute;l&eacute;charger le Toolkit maintenant
+      </a>
+      <p style="margin:10px 0 0;font-size:0.8rem;color:rgba(255,255,255,0.4);">Fichier HTML &middot; 858 KB &middot; S'ouvre dans votre navigateur</p>
+    </div>
+
+    <!-- Card email (secours) -->
+    <div class="email-card">
+      <span class="email-icon">&#128231;</span>
+      <h2>Lien aussi envoy&eacute; par email</h2>
+      <p>
+        Un email de confirmation vous a &eacute;t&eacute; envoy&eacute; &agrave; l'adresse utilis&eacute;e lors du paiement.<br>
+        Il contient le <strong style="color:#fff;">lien de t&eacute;l&eacute;chargement</strong> du toolkit.
+      </p>
+      <div class="email-tip">
+        <span class="email-tip-icon">&#128204;</span>
+        <span>Pas d'email dans les 10 minutes ? V&eacute;rifiez vos <strong style="color:rgba(255,255,255,0.75);">spams</strong> ou contactez <a href="mailto:contact@growthactionsai.com" style="color:var(--gold);text-decoration:none;">contact@growthactionsai.com</a></span>
+      </div>
+    </div>
+
+    <!-- Steps utilisation -->
+    <div class="steps-section">
+      <h3>Comment utiliser votre toolkit</h3>
+      <div class="steps-list">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <strong>T&eacute;l&eacute;chargez le fichier</strong>
+            <span>Ouvrez l'email &rarr; cliquez sur la pi&egrave;ce jointe .html &rarr; enregistrez sur votre ordinateur</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <strong>Ouvrez dans votre navigateur</strong>
+            <span>Double-cliquez sur le fichier. Il s'ouvre dans Chrome, Firefox ou Edge &mdash; comme une page web locale.</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <strong>S&eacute;lectionnez votre besoin</strong>
+            <span>QBR &agrave; pr&eacute;parer, compte &agrave; analyser, objection &agrave; anticiper &mdash; choisissez la cat&eacute;gorie.</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-text">
+            <strong>Copiez le prompt dans votre IA</strong>
+            <span>ChatGPT, Claude ou Gemini &mdash; collez, personnalisez, obtenez un r&eacute;sultat pro en 30 secondes.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Récap de l'achat -->
+    <div class="recap-card">
+      <h3>Votre commande</h3>
+      <ul class="recap-list">
+        <li>
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+          50 prompts IA sp&eacute;cialis&eacute;s KAM (6 cat&eacute;gories)
+        </li>
+        <li>
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+          4 outils interactifs (Account Plan, QBR, Scoring, Relationship Map)
+        </li>
+        <li>
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+          8 templates pro (Word, Excel, PowerPoint)
+        </li>
+        <li>
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+          100% bilingue FR / EN &middot; 100% hors-ligne
+        </li>
+        <li>
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+          Garantie satisfait ou rembours&eacute; 14 jours
+        </li>
+      </ul>
+    </div>
+
+  </div><!-- /.container -->
+
+  <!-- Footer -->
+  <div class="merci-footer">
+    <div class="container">
+      <p>Growth Actions &middot; <a href="mailto:contact@growthactionsai.com">contact@growthactionsai.com</a></p>
+      <p style="margin-top:6px;">
+        <a href="https://www.growthactionsai.com/mentions-legales-596708e5" target="_top">Mentions l&eacute;gales</a> &middot;
+        <a href="https://www.growthactionsai.com/cgv-d4aa1e49" target="_top">CGV</a> &middot;
+        <a href="https://www.growthactionsai.com/politique-de-confidentialite-520cc6b7" target="_top">Politique de confidentialit&eacute;</a>
+      </p>
+    </div>
+  </div>
+
+</div><!-- /.merci-page -->
+
+<script>
+  // ---- CONFETTI ----
+  (function () {
+    const wrap = document.getElementById('confetti-wrap');
+    const colors = ['#C9A84C', '#E0C76A', '#ffffff', '#A88A3A', '#22C55E'];
+    const count = 60;
+
+    for (let i = 0; i < count; i++) {
+      const el = document.createElement('div');
+      el.className = 'confetti-piece';
+      el.style.left = Math.random() * 100 + 'vw';
+      el.style.background = colors[Math.floor(Math.random() * colors.length)];
+      el.style.width = (Math.random() * 8 + 5) + 'px';
+      el.style.height = (Math.random() * 8 + 5) + 'px';
+      el.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+      el.style.animationDuration = (Math.random() * 2 + 2) + 's';
+      el.style.animationDelay = (Math.random() * 1.5) + 's';
+      wrap.appendChild(el);
+    }
+
+    // Nettoyer après animation
+    setTimeout(() => { if (wrap) wrap.remove(); }, 5000);
+  })();
+</script>
