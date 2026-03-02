@@ -2,7 +2,7 @@
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/vente", "destination": "/vente.html" },
-    { "source": "/download", "destination": "/kam-ai-first-toolkit.zip" },
+    { "source": "/download", "destination": "/api/download" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
@@ -12,17 +12,11 @@
         { "key": "X-Frame-Options", "value": "ALLOWALL" },
         { "key": "Content-Security-Policy", "value": "frame-ancestors *" }
       ]
-    },
-    {
-      "source": "/download",
-      "headers": [
-        { "key": "Content-Disposition", "value": "attachment; filename=\"kam-ai-first-toolkit.zip\"" },
-        { "key": "Content-Type", "value": "application/zip" }
-      ]
     }
   ],
   "functions": {
     "api/chat.ts": { "maxDuration": 30 },
-    "api/validate-code.ts": { "maxDuration": 5 }
+    "api/validate-code.ts": { "maxDuration": 5 },
+    "api/download.ts": { "maxDuration": 10, "includeFiles": "public/kam-ai-first-toolkit.zip" }
   }
 }
