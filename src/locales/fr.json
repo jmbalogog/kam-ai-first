@@ -1,0 +1,211 @@
+{
+  "app": {
+    "name": "KAM AI-First Toolkit",
+    "tagline": "50 Prompts IA + 8 Templates pour Grands Comptes"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "prompts": "Prompts IA",
+    "templates": "Templates",
+    "scoring": "Scoring Matrix",
+    "accountPlan": "Plan de Compte",
+    "qbr": "Checklist QBR",
+    "relationshipMap": "Mapping Relationnel",
+    "ai": "Coach IA",
+    "gordon": "Passer à Gordon",
+    "tools": "Outils",
+    "comingSoon": "À venir"
+  },
+  "landing": {
+    "hero": "Le Toolkit IA du Key Account Manager",
+    "subtitle": "50 prompts IA + 8 templates + outils interactifs pour structurer, analyser et développer vos comptes stratégiques.",
+    "cta": "Accéder au Toolkit",
+    "features": {
+      "prompts": "50 Prompts IA",
+      "promptsDesc": "Prompts prêts à l'emploi pour Claude, ChatGPT ou tout LLM. Copiez, collez, résultats immédiats.",
+      "templates": "8 Templates Essentiels",
+      "templatesDesc": "Account Plan, Scoring Matrix, QBR, Capture Plan — téléchargeables en 1 clic.",
+      "tools": "Outils Interactifs",
+      "toolsDesc": "Scoring Matrix, générateur de plan de compte, checklist QBR — directement dans votre navigateur.",
+      "ai": "Coach IA Intégré",
+      "aiDesc": "Décrivez votre situation et recevez un plan d'action personnalisé en 30 secondes."
+    },
+    "social": "Utilisé par des KAMs en France et à l'international"
+  },
+  "access": {
+    "title": "Connectez-vous",
+    "subtitle": "Entrez vos identifiants reçus par email après votre achat.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Votre mot de passe",
+    "button": "Se connecter",
+    "error_invalid": "Email ou mot de passe incorrect. Vérifiez vos identifiants.",
+    "error_network": "Erreur réseau. Réessayez dans quelques instants.",
+    "no_code": "Pas encore de compte ?",
+    "buy_link": "Obtenir le KAM AI-First Toolkit →"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue dans votre KAM AI-First Toolkit",
+    "subtitle": "Tout ce dont vous avez besoin pour structurer et développer vos comptes stratégiques.",
+    "quickStart": "Démarrage rapide",
+    "explorePrompts": "Explorer les prompts",
+    "downloadTemplates": "Télécharger les templates",
+    "useTools": "Utiliser les outils",
+    "askAI": "Demander au Coach IA",
+    "stats": {
+      "prompts": "Prompts IA",
+      "templates": "Templates",
+      "tools": "Outils",
+      "categories": "Catégories"
+    }
+  },
+  "prompts": {
+    "title": "Prompts IA pour KAM",
+    "subtitle": "50 prompts prêts à copier-coller dans Claude, ChatGPT ou tout LLM.",
+    "searchPlaceholder": "Rechercher un prompt...",
+    "allCategories": "Toutes les catégories",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "gordonBoost": "Encore plus puissant avec Gordon",
+    "difficulty": {
+      "starter": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    }
+  },
+  "templates": {
+    "title": "Templates Téléchargeables",
+    "subtitle": "8 templates essentiels au format Excel, Word et PowerPoint.",
+    "download": "Télécharger",
+    "format": {
+      "xlsx": "Excel",
+      "docx": "Word",
+      "pptx": "PowerPoint"
+    }
+  },
+  "tools": {
+    "title": "Outils Interactifs",
+    "subtitle": "Des outils pour analyser et structurer vos comptes — directement dans votre navigateur."
+  },
+  "scoring": {
+    "title": "Scoring Matrix",
+    "subtitle": "Priorisez vos comptes en notant 6 critères stratégiques.",
+    "addAccount": "Ajouter un compte",
+    "accountName": "Nom du compte",
+    "criteria": {
+      "revenue_potential": "Potentiel revenu",
+      "strategic_fit": "Fit stratégique",
+      "relationship_strength": "Force relation",
+      "growth_likelihood": "Probabilité croissance",
+      "competitive_position": "Position concurrentielle",
+      "decision_timeline": "Timeline décision"
+    },
+    "score": "Score",
+    "actions": "Actions",
+    "delete": "Supprimer",
+    "noAccounts": "Ajoutez votre premier compte pour commencer le scoring.",
+    "total": "Total"
+  },
+  "accountPlan": {
+    "title": "Générateur de Plan de Compte",
+    "subtitle": "Remplissez le formulaire étape par étape pour générer votre plan structuré.",
+    "steps": {
+      "overview": "Vue d'ensemble",
+      "contacts": "Contacts clés",
+      "objectives": "Objectifs",
+      "risks": "Risques",
+      "opportunities": "Opportunités",
+      "competitors": "Concurrence",
+      "actions": "Plan d'action",
+      "review": "Synthèse"
+    },
+    "generate": "Générer le plan",
+    "copyPlan": "Copier le plan",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "qbrChecklist": {
+    "title": "Checklist QBR",
+    "subtitle": "Préparez votre Quarterly Business Review point par point.",
+    "progress": "Progression",
+    "reset": "Réinitialiser",
+    "sections": {
+      "preparation": "Préparation",
+      "agenda": "Agenda",
+      "performance": "Revue de Performance",
+      "strategy": "Discussion Stratégique",
+      "actions": "Plan d'Action",
+      "followup": "Suivi"
+    }
+  },
+  "relationshipMap": {
+    "title": "Mapping Relationnel",
+    "subtitle": "Cartographiez les parties prenantes de votre compte.",
+    "addStakeholder": "Ajouter une partie prenante",
+    "name": "Nom",
+    "role": "Rôle / Titre",
+    "influence": "Influence",
+    "sentiment": "Sentiment",
+    "influenceLevels": {
+      "high": "Haute",
+      "medium": "Moyenne",
+      "low": "Faible"
+    },
+    "sentimentLevels": {
+      "champion": "Champion",
+      "supportive": "Favorable",
+      "neutral": "Neutre",
+      "resistant": "Résistant",
+      "blocker": "Bloqueur"
+    },
+    "grid": "Grille Influence / Sentiment",
+    "noStakeholders": "Ajoutez votre première partie prenante."
+  },
+  "ai": {
+    "title": "Coach IA KAM",
+    "subtitle": "Décrivez votre situation et recevez des recommandations personnalisées.",
+    "selectCategory": "Choisissez un contexte",
+    "placeholder": "Décrivez votre situation... Ex: Je prépare une QBR avec un client qui menace de partir...",
+    "send": "Envoyer",
+    "counter": "{count}/10 analyses utilisées",
+    "warningLow": "Plus que {remaining} analyse(s) disponible(s)",
+    "limitReachedTitle": "Vous avez utilisé vos 10 analyses IA",
+    "limitReachedBody": "Pour un coaching commercial IA illimité, passez à Gordon.",
+    "discoverGordon": "Découvrir Gordon →",
+    "thinking": "Analyse en cours..."
+  },
+  "gordon": {
+    "title": "Passez au niveau supérieur avec Gordon",
+    "subtitle": "Gordon est votre coach commercial IA personnel — disponible 24/7 pour vous entraîner, vous conseiller et vous faire progresser.",
+    "features": {
+      "unlimited": "Coaching IA illimité",
+      "roleplay": "Simulations de vente en temps réel",
+      "objections": "Traitement d'objections personnalisé",
+      "strategy": "Stratégie grands comptes sur mesure"
+    },
+    "cta": "Découvrir Gordon — 29€/mois",
+    "ctaSub": "Annulable à tout moment"
+  },
+  "comingSoon": {
+    "badge": "À venir",
+    "aiDescription": "Le Coach IA sera bientôt disponible pour vous accompagner dans vos décisions stratégiques grands comptes.",
+    "inTheMeantime": "En attendant, profitez de :",
+    "tip1": "Nos 50 prompts IA prêts à l'emploi",
+    "tip2": "Les 4 outils interactifs (Scoring, Account Plan, QBR, Mapping)",
+    "tip3": "Les 8 templates téléchargeables",
+    "gordonMessage": "Gordon arrive bientôt pour révolutionner votre coaching commercial.",
+    "gordonSub": "Inscrivez-vous pour être notifié dès le lancement."
+  },
+  "privacy": {
+    "notice": "Vos données restent sur votre appareil. Aucune information personnelle (noms, comptes, contacts) n'est envoyée à nos serveurs. 100% conforme RGPD.",
+    "footer": "Données stockées localement sur votre navigateur uniquement."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "close": "Fermer"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "app": {
+    "name": "KAM AI-First Toolkit",
+    "tagline": "50 AI Prompts + 8 Templates for Key Accounts"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "prompts": "AI Prompts",
+    "templates": "Templates",
+    "scoring": "Scoring Matrix",
+    "accountPlan": "Account Plan",
+    "qbr": "QBR Checklist",
+    "relationshipMap": "Relationship Map",
+    "ai": "AI Coach",
+    "gordon": "Upgrade to Gordon",
+    "tools": "Tools",
+    "comingSoon": "Coming Soon"
+  },
+  "landing": {
+    "hero": "The AI Toolkit for Key Account Managers",
+    "subtitle": "50 AI prompts + 8 templates + interactive tools to structure, analyze and grow your strategic accounts.",
+    "cta": "Access the Toolkit",
+    "features": {
+      "prompts": "50 AI Prompts",
+      "promptsDesc": "Ready-to-use prompts for Claude, ChatGPT or any LLM. Copy, paste, instant results.",
+      "templates": "8 Essential Templates",
+      "templatesDesc": "Account Plan, Scoring Matrix, QBR, Capture Plan — downloadable in 1 click.",
+      "tools": "Interactive Tools",
+      "toolsDesc": "Scoring Matrix, account plan generator, QBR checklist — right in your browser.",
+      "ai": "Built-in AI Coach",
+      "aiDesc": "Describe your situation and get a personalized action plan in 30 seconds."
+    },
+    "social": "Used by KAMs in France and internationally"
+  },
+  "access": {
+    "title": "Log in",
+    "subtitle": "Enter the credentials you received by email after your purchase.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your password",
+    "button": "Log in",
+    "error_invalid": "Invalid email or password. Please check your credentials.",
+    "error_network": "Network error. Please try again.",
+    "no_code": "Don't have an account yet?",
+    "buy_link": "Get the KAM AI-First Toolkit →"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your KAM AI-First Toolkit",
+    "subtitle": "Everything you need to structure and grow your strategic accounts.",
+    "quickStart": "Quick Start",
+    "explorePrompts": "Explore prompts",
+    "downloadTemplates": "Download templates",
+    "useTools": "Use tools",
+    "askAI": "Ask the AI Coach",
+    "stats": {
+      "prompts": "AI Prompts",
+      "templates": "Templates",
+      "tools": "Tools",
+      "categories": "Categories"
+    }
+  },
+  "prompts": {
+    "title": "AI Prompts for KAM",
+    "subtitle": "50 ready-to-copy prompts for Claude, ChatGPT or any LLM.",
+    "searchPlaceholder": "Search prompts...",
+    "allCategories": "All categories",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "gordonBoost": "Even more powerful with Gordon",
+    "difficulty": {
+      "starter": "Starter",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "templates": {
+    "title": "Downloadable Templates",
+    "subtitle": "8 essential templates in Excel, Word and PowerPoint format.",
+    "download": "Download",
+    "format": {
+      "xlsx": "Excel",
+      "docx": "Word",
+      "pptx": "PowerPoint"
+    }
+  },
+  "tools": {
+    "title": "Interactive Tools",
+    "subtitle": "Tools to analyze and structure your accounts — right in your browser."
+  },
+  "scoring": {
+    "title": "Scoring Matrix",
+    "subtitle": "Prioritize your accounts by scoring 6 strategic criteria.",
+    "addAccount": "Add account",
+    "accountName": "Account name",
+    "criteria": {
+      "revenue_potential": "Revenue potential",
+      "strategic_fit": "Strategic fit",
+      "relationship_strength": "Relationship strength",
+      "growth_likelihood": "Growth likelihood",
+      "competitive_position": "Competitive position",
+      "decision_timeline": "Decision timeline"
+    },
+    "score": "Score",
+    "actions": "Actions",
+    "delete": "Delete",
+    "noAccounts": "Add your first account to start scoring.",
+    "total": "Total"
+  },
+  "accountPlan": {
+    "title": "Account Plan Generator",
+    "subtitle": "Fill in the form step by step to generate your structured plan.",
+    "steps": {
+      "overview": "Overview",
+      "contacts": "Key Contacts",
+      "objectives": "Objectives",
+      "risks": "Risks",
+      "opportunities": "Opportunities",
+      "competitors": "Competition",
+      "actions": "Action Plan",
+      "review": "Summary"
+    },
+    "generate": "Generate plan",
+    "copyPlan": "Copy plan",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "qbrChecklist": {
+    "title": "QBR Checklist",
+    "subtitle": "Prepare your Quarterly Business Review step by step.",
+    "progress": "Progress",
+    "reset": "Reset",
+    "sections": {
+      "preparation": "Preparation",
+      "agenda": "Agenda",
+      "performance": "Performance Review",
+      "strategy": "Strategic Discussion",
+      "actions": "Action Plan",
+      "followup": "Follow-up"
+    }
+  },
+  "relationshipMap": {
+    "title": "Relationship Map",
+    "subtitle": "Map the stakeholders in your account.",
+    "addStakeholder": "Add stakeholder",
+    "name": "Name",
+    "role": "Role / Title",
+    "influence": "Influence",
+    "sentiment": "Sentiment",
+    "influenceLevels": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "sentimentLevels": {
+      "champion": "Champion",
+      "supportive": "Supportive",
+      "neutral": "Neutral",
+      "resistant": "Resistant",
+      "blocker": "Blocker"
+    },
+    "grid": "Influence / Sentiment Grid",
+    "noStakeholders": "Add your first stakeholder."
+  },
+  "ai": {
+    "title": "KAM AI Coach",
+    "subtitle": "Describe your situation and get personalized recommendations.",
+    "selectCategory": "Choose a context",
+    "placeholder": "Describe your situation... E.g.: I'm preparing a QBR with a client who is threatening to leave...",
+    "send": "Send",
+    "counter": "{count}/10 analyses used",
+    "warningLow": "Only {remaining} analysis(es) remaining",
+    "limitReachedTitle": "You've used all 10 AI analyses",
+    "limitReachedBody": "For unlimited AI sales coaching, switch to Gordon.",
+    "discoverGordon": "Discover Gordon →",
+    "thinking": "Analyzing..."
+  },
+  "gordon": {
+    "title": "Level up with Gordon",
+    "subtitle": "Gordon is your personal AI sales coach — available 24/7 to train, advise and help you grow.",
+    "features": {
+      "unlimited": "Unlimited AI coaching",
+      "roleplay": "Real-time sales simulations",
+      "objections": "Personalized objection handling",
+      "strategy": "Custom key account strategy"
+    },
+    "cta": "Discover Gordon — 29€/month",
+    "ctaSub": "Cancel anytime"
+  },
+  "comingSoon": {
+    "badge": "Coming Soon",
+    "aiDescription": "The AI Coach will soon be available to help you with your strategic key account decisions.",
+    "inTheMeantime": "In the meantime, enjoy:",
+    "tip1": "Our 50 ready-to-use AI prompts",
+    "tip2": "4 interactive tools (Scoring, Account Plan, QBR, Mapping)",
+    "tip3": "8 downloadable templates",
+    "gordonMessage": "Gordon is coming soon to revolutionize your sales coaching.",
+    "gordonSub": "Sign up to be notified at launch."
+  },
+  "privacy": {
+    "notice": "Your data stays on your device. No personal information (names, accounts, contacts) is sent to our servers. 100% GDPR compliant.",
+    "footer": "Data stored locally in your browser only."
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "close": "Close"
+  }
+}
